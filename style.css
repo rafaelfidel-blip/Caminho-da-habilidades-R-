@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(100deg,  #e6e1fd,  #f3d1d1);
+    font-family: "Story Script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-style: medium;
+
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    max-width: 650px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 25px;
+}
+
+
+h1{
+    color: #20013a;
+    font-size: 50px;
+}
+
+label{
+    display: block;
+    margin: 15px;
+    font-size: 25px;
+}
+
+button{
+    border: 1px solid #45017e;
+    box-shadow: 0 5px #7e0000;
+    border-radius: 5px;
+    background-color: aqua;
+    color: rgb(43, 42, 42);
+    font-size: large;
+    font-weight: bold;
+    margin-top: 5px;
+    padding: 5px 13px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(red green blue / alpha);
+}
+
+button:active{
+    transform: scale(0.9);
+}
+
+#resultado{
+    margin-top: 5px;
+    padding: 5px;
+    border-top: #20013a;
+    animation: aparecer 0,5s ease;
+}
+
+#resultado h2{
+    padding: 10px;
+}
+
+#resultado h3{
+    color:#20013a;
+    font-size: medium;
+    font-family: "Share Tech", sans-serif;
+}
+
+textarea{
+    width: 100%;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 25px;
+    transition: 0.3s;
+    margin-top: 5px;
+}
+
+#resultado p{
+    line-height: 2;
+    margin: 10px, 2px;
+    color: rgb(27, 27, 27);
+}
